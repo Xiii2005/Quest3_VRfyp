@@ -8,7 +8,7 @@ using System.IO.Ports;
 public class ArduinoMistController : MonoBehaviour
 {
     [Header("Serial Settings")]
-    [SerializeField] private string portName = "COM5";
+    [SerializeField] private string portName = "COM3";
     [SerializeField] private int baudRate = 115200;
 
 #if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
