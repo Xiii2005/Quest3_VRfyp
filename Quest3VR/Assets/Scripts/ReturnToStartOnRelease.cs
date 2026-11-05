@@ -59,23 +59,23 @@ public class ReturnToStartOnRelease : MonoBehaviour
             float smoothProgress =
                 progress * progress * (3f - 2f * progress);
 
-           // transform.localPosition = Vector3.Lerp(
-            //    returnStartPosition,
-            //    originalLocalPosition,
-            //    smoothProgress
-            //);
+            transform.localPosition = Vector3.Lerp(
+                returnStartPosition,
+                originalLocalPosition,
+                smoothProgress
+            );
 
-            /* transform.localRotation = Quaternion.Slerp(
+            transform.localRotation = Quaternion.Slerp(
                 returnStartRotation,
                 originalLocalRotation,
                 smoothProgress
-            ); */
+            );
 
             yield return null;
         }
 
-        //transform.localPosition = originalLocalPosition;
-        //transform.localRotation = originalLocalRotation;
+        transform.localPosition = originalLocalPosition;
+        transform.localRotation = originalLocalRotation;
 
         returnCoroutine = null;
     }
