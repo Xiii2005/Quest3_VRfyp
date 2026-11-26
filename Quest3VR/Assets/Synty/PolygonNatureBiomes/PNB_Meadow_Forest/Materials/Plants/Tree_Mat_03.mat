@@ -111,7 +111,7 @@ Material:
     - _AlphaClip: 1
     - _AlphaCutoff: 0.5
     - _AlphaToMask: 1
-    - _Alpha_Clip_Threshold: 0.25
+    - _Alpha_Clip_Threshold: 0.435
     - _BUILTIN_AlphaClip: 1
     - _BUILTIN_Blend: 0
     - _BUILTIN_CullMode: 0
@@ -187,11 +187,11 @@ Material:
     - _LeafNoiseScale: 1
     - _LeafNormalAmount: 0.5
     - _LeafSmoothness: 0.2
-    - _Leaf_Ambient_Occlusion_Intensity: 0.5
+    - _Leaf_Ambient_Occlusion_Intensity: 0.533
     - _Leaf_Flat_Color: 0
     - _Leaf_Metallic: 0
     - _Leaf_Normal_Strength: 0.5
-    - _Leaf_Smoothness: 0.2
+    - _Leaf_Smoothness: 0.068
     - _Light_Wind_Strength: 0.2
     - _Light_Wind_Use_Leaf_Fade: 1
     - _Light_Wind_Y_Offset: 0

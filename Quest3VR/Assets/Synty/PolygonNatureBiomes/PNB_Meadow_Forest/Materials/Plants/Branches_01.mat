@@ -189,7 +189,7 @@ Material:
     - _LeafSmoothness: 0.484
     - _Leaf_Ambient_Occlusion_Intensity: 0.5
     - _Leaf_Flat_Color: 0
-    - _Leaf_Metallic: 0.144
+    - _Leaf_Metallic: 0
     - _Leaf_Normal_Strength: 0.5
     - _Leaf_Smoothness: 0.484
     - _Light_Wind_Strength: 0.2
